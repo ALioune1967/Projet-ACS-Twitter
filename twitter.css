@@ -1,0 +1,79 @@
+body {
+  font-family: "Nunito Sans";
+}
+.container {
+  margin: 0 auto;
+  width: 350px;
+}
+
+h1 {
+  font-weight: 700;
+  padding-left: 25px;
+}
+label {
+  padding-top: 4px;
+}
+
+.btn {
+  background-color: #1877f2;
+  border: none;
+  border-radius: 6px;
+  font-size: 20px;
+  line-height: 28px;
+  color: #fff;
+  font-weight: 700;
+  height: 48px;
+}
+.btn {
+  color: #fff !important;
+  background-color: rgb(29, 161, 242);
+  border-radius: 100px;
+  width: 290px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.form-control:focus {
+  background-color: rgb(245, 248, 250);
+  border-color: #31a1f2;
+}
+
+input[type="text"],
+input[type="password"] {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: center;
+  align-items: center;
+  align-content: center;
+  background-color: #fafafa;
+  border: 1px solid rgb(212, 211, 211);
+  width: 275px;
+  font-size: 13px;
+  font-weight: lighter;
+  border-radius: 3px;
+  padding-left: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: 20px;
+  margin-right: 20px;
+}
+
+.fa {
+  color: rgb(29, 161, 242);
+  margin: 0 auto;
+  display: block;
+  font-size: 50px;
+  padding-left: 25px;
+}
+a {
+  text-decoration: none;
+  color: rgb(27, 149, 224);
+  margin-left: 25px;
+}
+a:hover {
+  text-decoration: underline;
+  color: rgb(27, 149, 224);
+}
+.text {
+  font-size: small;
+}
